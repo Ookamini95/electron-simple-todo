@@ -1,0 +1,15 @@
+{
+  "name": "test_1",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EC",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.1.12"
+  }
+}

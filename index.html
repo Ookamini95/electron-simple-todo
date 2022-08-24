@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>ToDos</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script defer src="renderer.js"></script>
+</head>
+
+<body>
+    <h1>ToDos</h1>
+
+    <div class="todo-container">
+        <div class="todo-sample todo-box">
+            <input type="text" readonly value="test" class="todo--text">
+            <input type="checkbox" name="task-checkbox" id="checkbox">
+            <button class="rm-todo">Remove</button>
+        </div>
+    </div>
+
+    <div class="todo-control">
+        <input type="text" class="add-todo--text" placeholder="Add a todo">
+        <button class="add-todo--btn">Add Todo</button>
+    </div>
+
+
+    <button class="edit-mode">Edit mode</button>
+    <button class="db-save">Save</button>
+    <button class="db-load">Load</button>
+
+
+</body>
+
+</html>

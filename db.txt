@@ -1,0 +1,19 @@
+
+        
+    <div class="todo todo-box">
+    <input type="text" readonly="" value="cciola" class="todo--text" style="text-decoration: none;">
+    <input type="checkbox" name="task-checkbox" id="checkbox">
+    <button class="rm-todo">Remove</button>
+    </div><div class="todo todo-box" style="text-decoration: none;">
+    <input type="text" readonly="" value="è veloce" class="todo--text" style="text-decoration: none;">
+    <input type="checkbox" name="task-checkbox" id="checkbox">
+    <button class="rm-todo">Remove</button>
+    </div><div class="todo todo-box">
+    <input type="text" readonly="" value="a venire" class="todo--text" style="text-decoration: none;">
+    <input type="checkbox" name="task-checkbox" id="checkbox">
+    <button class="rm-todo">Remove</button>
+    </div><div class="todo todo-box">
+    <input type="text" value="a casa degli amici" class="todo--text" readonly="true" style="text-decoration: none;">
+    <input type="checkbox" name="task-checkbox" id="checkbox">
+    <button class="rm-todo">Remove</button>
+    </div>
